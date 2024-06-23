@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:italwght@0,400;0,600;0,700&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+
+  background-color: #5188dd;
+
+  color: #262d39;
+  outline: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+textarea,
+button,
+input {
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+  border: none;
+}
+button {
+  cursor: pointer;
+  background-color: inherit;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0 0.313em 0.313em;
+}
+.app__container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.8em;
+  background-color: #fff;
+  padding: 0.938em;
+}
+.app__icon {
+  margin-bottom: 0.938em;
+  max-width: 9.37em;
+  align-self: center;
+}
+.app__title {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0.938em;
+  text-align: center;
+}
+.app__label {
+  font-weight: 600;
+  margin-bottom: 0.625em;
+}
+.app__input {
+  font-size: 1.2em;
+  width: 100%;
+  border-bottom: 0.125em solid #02002c;
+  color: #98cdfd;
+  margin-bottom: 0.938em;
+  padding: 0.5em;
+}
+.app__input:focus {
+  color: #7597fc;
+}
+.app__error {
+  color: red;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+}
+.app__error p {
+  margin-bottom: 0.938em;
+  text-align: center;
+}
+.select-app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding-bottom: 2em;
+}
+.select-app__from,
+.select-app__to {
+  width: 100%;
+  padding: 0.6em;
+  font-size: 1em;
+  border-radius: 0.2em;
+  appearance: none;
+  background-color: #7597fc;
+  color: #fff;
+}
+.select-app__from option {
+  background-color: #fff;
+  color: #262d39;
+}
+.select-app__to option {
+  background-color: #fff;
+  color: #262d39;
+}
+.app__button {
+  font-size: 1em;
+  width: 100%;
+  background-color: #7597fc;
+  padding: 1em 0;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.app__button:hover {
+  background-color: #648afa;
+  color: #f5f1f1;
+}
+.app__result {
+  font-size: 1.2em;
+  text-align: center;
+
+  color: #262d39;
+  background-color: rgba(152, 204, 253, 0.198);
+  padding: 0.8em 0.3em;
+  border-radius: 0.3em;
+}
